@@ -1,6 +1,6 @@
 export enum Colors {
-  ACCENT = 'orange',
+  ACCENT = 'purple',
   HIGHLIGHT = 'red',
-  PARTICLES_DARK = '#ffa726',
-  PARTICLES_LIGHT = '#e0e0e0',
+  PARTICLES_DARK = '#eddf49',
+  PARTICLES_LIGHT = '#5699c4',
 }

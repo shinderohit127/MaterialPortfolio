@@ -19,10 +19,6 @@ const pages = [
     title: 'Home',
     href: '/',
   },
-  {
-    title: 'Blog',
-    href: '/blog',
-  },
 ];
 
 interface NavBarType {

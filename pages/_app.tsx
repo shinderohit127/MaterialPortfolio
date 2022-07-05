@@ -20,6 +20,8 @@ export default function MyApp(props: MyAppProps) {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <link rel="shortcut icon" href="/new-favicon.ico" />
+        <title>Rohit's Portfolio Website</title>
       </Head>
       <MUIThemeProvider>
         <CssBaseline />

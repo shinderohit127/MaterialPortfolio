@@ -75,7 +75,17 @@ const Home: NextPage = () => {
           </Box>
         ))}
         <Typography mt={5} mb={1} variant="body1">
-          {siteData.footer}
+          <h1>
+            Access my resume from{' '}
+            <a href="https://drive.google.com/file/d/1gKokexv0rEoBm8N3WAe8WZCtLR34FhSh/view?usp=sharing">
+              here
+            </a>
+            !
+          </h1>
+        </Typography>
+        <Typography mt={5} mb={1} variant="body1">
+          {siteData.footer} Original Template by{' '}
+          <a href="https://github.com/n-k-d/MaterialPortfolio"> n-k-d</a> on Github.
         </Typography>
         {siteData.contact && (
           <Fab

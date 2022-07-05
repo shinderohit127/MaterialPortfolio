@@ -1,140 +1,109 @@
 {
-  "name": "John Doe",
+  "name": "Rohit Shinde",
   "siteName": "A starter blog with portfolio",
-  "profileImage": "me.png",
+  "profileImage": "rohit.jpg",
   "siteUrl": "https://hello.com",
-  "contact": "noreply@gmail.com",
+  "contact": "shinderohit127@gmail.com",
   "footer": "Built with 💛",
-  "facebook": "https://facebook.com",
-  "instagram": "https://instagram.com",
-  "twitter": "https://twitter.com",
-  "github": "https://github.com",
-  "linkedin": "https://linkedin.com",
-  "stackoverflow": "https://stackoverflow.com",
-  "devto": "https://dev.to",
-  "medium": "https://medium.com",
-  "dribble": "https://dribble.com",
-  "youtube": "https://youtube.com",
+  "instagram": "https://instagram.com/rohit.x22",
+  "github": "https://github.com/shinderohit127",
+  "linkedin": "https://www.linkedin.com/in/rohit-shinde-586203191/",
+  "devto": "https://dev.to/shinderohit127",
   "description": [
     {
       "title": "About",
       "description": [
-        "Hi, I am John Doe",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec magna non dolor lacinia accumsan. Ut a tincidunt urna, sit amet porttitor tellus",
-        "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam sit amet congue nunc. Aenean rutrum rhoncus dui, at ultrices est lacinia ac. Nulla dapibus, elit sed vestibulum ultricies, lacus arcu feugiat lacus, ut bibendum leo justo non orci."
-      ]
-    },
-    {
-      "title": "Mobile Development",
-      "description": [
-        "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam sit amet congue nunc. Aenean rutrum rhoncus dui, at ultrices est lacinia ac. Nulla dapibus, elit sed vestibulum ultricies, lacus arcu feugiat lacus, ut bibendum leo justo non orci.",
-        "My primary experiance is in Mobile development."
-      ],
-      "tags": [
-        "Android (Java/Kotlin)",
-        "iOS (Swift)",
-        "React Native (TypeScript/JavaScript)",
-        "Flutter"
+        "Hello there! My name is Rohit and I'm a Frontend Developer. I started my journey as a self-taught web developer right from my school days. Ever since I have fallen in love with web development and spend most of my days taking my craft to the next level. In my free time, one can find me trying out puzzles and solving the Rubik's cube!"
       ]
     },
     {
       "title": "Web Development",
       "description": [
-        "Vivamus tincidunt hendrerit eros. Nunc in egestas lacus. Aenean volutpat, purus a porta accumsan, lorem libero euismod massa, nec ultricies nisi leo sed ante"
+        "About 2 years of experience in design, development, analysis and testing of Web based applications. Hands on experience with web development technologies like ReactJS, VueJS, Bootstrap, etc. Good knowledge of global state management libraries like Redux and Vuex"
       ],
       "tags": [
-        "Reactjs",
+        "ReactJS",
         "Nodejs",
-        "MongoDB",
-        "MySQL",
-        "PostGreSQL",
-        "GatsbyJS",
-        "NextJS",
-        "NestJS"
+        "VueJS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "title": "Mobile Development",
+      "description": [
+        "Mobile Application Developer with experience in software development lifecycle (SDLC) including analysis, design, development, and testing, deployment. Hands on experience in developing applications for multiple domains including business, e-commerce, etc.",
+        "Proficient with React Native and Flutter in developing web and mobile hybrid applications."
+      ],
+      "tags": [
+        "React Native (TypeScript/JavaScript)",
+        "Flutter"
+      ]
+    },
+    {
+      "title": "Blockchain Development",
+      "description": [
+        "Avid researcher of the Blockchain Technology. Experience in developing decentralized blockchain applications using Ethereum, Solana and Tezos.",
+        "Hands on experience in developing smart contracts with Ethereum and Solana."
+      ],
+      "tags": [
+        "Ethereum (Solidity, Truffle, geth, Ganache, EVM, Remix IDE)",
+        "Solana (Rust, Anchor)",
+        "Tezos (SmartPy)"
       ]
     }
   ],
   "steps": [
     {
       "title": "Work TimeLine",
-      "description": "Timeline of projects I completed on my previous jobs",
+      "description": "Timeline of projects I have previously worked on",
       "data": [
         {
           "details": true,
-          "time": "🗓 Feb 2020 - Current",
-          "label": "Github App screenshots",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec magna non dolor lacinia accumsan",
-          "tech": ["React Native", "Android", "Kotlin", "iOS", "Swift"],
-          "images": ["/images/github-1.webp", "/images/github-2.webp", "/images/github-3.webp"],
+          "time": "🗓 June 2022 - Current",
+          "label": "Twitter clone on Solana blockchain",
+          "description": "Currently developing a clone of Twitter on the Solana blockchain using one of its framework Anchor. Front end for the application developed using VueJS",
+          "tech": ["Blockchain", "Solana", "Rust", "VueJS", "Anchor CLI"],
+          "images": ["/images/twitter1.png", "/images/twitter2.png", "/images/twitter3.png"],
           "links": [
-            "Check it on PlayStore",
-            "https://play.google.com/store/apps/details?id=com.github.android"
+            "Code on Github",
+            "https://github.com/shinderohit127/solana-twitter-clone"
+          ]
+        },
+        {
+          "details": true,
+          "time": "🗓 May 2021 - June 2021",
+          "label": "Decentralized application simulating a Bank on Ethereum blockchain",
+          "description": "Decentralized finance web app built using Solidity programming language, Truffle, and Web3.js",
+          "tech": ["Blockchain", "Ethereum", "Solidity", "ReactJS", "Truffle"],
+          "links": [
+            "Code on Github",
+            "https://github.com/TheEquationary/Defi_ethereum/tree/master"
           ]
         },
         {
           "details": true,
           "time": "🗓 Sep 2020 - Jan 2021",
-          "label": "Google Workspace Website screenshots",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec magna non dolor lacinia accumsan",
-          "tech": ["iOS(Swift)", "Android(Kotlin)"],
+          "label": "Interactive Custom Pizza Builder Web App built with ReactJS",
+          "description": "Single page web app named PIZZOFY! (custom pizza builder) Using ReactJS and Redux. Deployment done using Firebase.",
+          "tech": ["ReactJS", "Redux", "Firebase"],
           "images": [
-            "/images/google-workspace-1.png",
-            "/images/google-workspace-2.png",
-            "/images/google-workspace-3.png"
+            "/images/pizzofy1.png",
+            "/images/pizzofy2.png"
           ],
-          "links": ["Google Workspace", "https://workspace.google.com/"]
+          "links": ["Check it out here", "https://pizzofy-39ab9.web.app/"]
         },
         {
           "details": true,
-          "time": "🐢🐙🐠🐟🐳🐋 Put anything you want on the timeline",
-          "label": "Description without any screenshots",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec magna non dolor lacinia accumsan",
-          "tech": ["Android", "iOS", "Unity", "Hololens", "Vuforia"]
-        },
-        {
-          "details": true,
-          "time": "🗓 Feb 2017 - May 2017",
-          "label": "Google Drive App",
-          "description": "Description with mobile screenshots",
-          "tech": ["Android(Java)", "iOS(Swift)"],
-          "images": ["/images/gdrive-1.png", "/images/gdrive-2.png", "/images/gdrive-3.png"],
-          "links": ["Available on AppStore", "https://apps.apple.com/us/app/12c-pro/id1476073840"]
-        },
-        {
-          "details": true,
-          "time": "🗓 June 2015 - Jan 2017",
-          "label": "XXX hello XXX",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec magna non dolor lacinia accumsan",
-          "tech": ["Android(Java)"],
-          "links": ["link", "https://google.com"]
-        },
-        {
-          "details": false,
-          "time": "Joined XXX XXX XXX, NL"
-        },
-        {
-          "details": true,
-          "time": "🗓 June 2013 - May 2015",
-          "label": "Working on something",
-          "description": "Add anything you want",
-          "tech": ["Android(Java)"]
-        },
-        {
-          "details": false,
-          "time": "Got Placed in XXX"
-        },
-        {
-          "details": true,
-          "time": "🗓 2009 - 2013",
+          "time": "🗓 2019 - 2023",
           "label": "🎓 Bachelor of Technology",
-          "description": "Completed Bachelor of Technology(B.Tech) from XXX in Computer Science",
-          "tech": ["Computer Science"]
+          "description": "Pursuing Bachelor of Technology (B.Tech) from K. J. Somaiya College of Enginnering in Information Technology",
+          "tech": ["Computer Science", "Information Technology"]
         },
         {
           "details": true,
           "time": "🗓 2006 - 2008",
-          "label": "HS",
-          "description": "Completed Higher Secondary from XXX in Science",
+          "label": "High School",
+          "description": "Completed Higher Secondary from K. J. Somaiya College of Science and Commerce in Science",
           "tech": ["Science"]
         },
         {
@@ -143,54 +112,24 @@
         },
         {
           "details": false,
-          "time": "🗓 1991 👶"
+          "time": "🗓 2001 👶"
         }
       ]
     },
     {
-      "title": "Other works",
-      "description": "Side projects I worked on weekends",
+      "title": "Get in Touch!",
+      "description": "I am open to and looking for employment opportunities to expand my knowledge and experience",
       "data": [
         {
           "details": true,
-          "time": "🗓 Feb 2020 - Current",
-          "label": "Github App screenshots",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec magna non dolor lacinia accumsan",
-          "tech": ["React Native", "Android", "Kotlin", "iOS", "Swift"],
-          "images": ["/images/github-1.webp", "/images/github-2.webp", "/images/github-3.webp"],
-          "links": [
-            "Check it on PlayStore",
-            "https://play.google.com/store/apps/details?id=com.github.android"
-          ]
+          "time": "Address",
+          "label": "Mumbai, Maharashtra, India"
         },
         {
           "details": true,
-          "time": "🗓 June 2013 - May 2015",
-          "label": "Working on something",
-          "description": "Add anything you want",
-          "tech": ["Android(Java)"]
-        }
-      ]
-    },
-    {
-      "title": "YouTube",
-      "description": "Ocassionally I love to make videos on YouTube",
-      "data": [
-        {
-          "details": true,
-          "time": "🗓 2020 - Current",
-          "label": "My YouTube channel on web development",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec magna non dolor lacinia accumsan",
-          "tech": ["JavaScript", "TypeScript", "React.js", "Node.js", "React Native"],
-          "links": ["Follow me on YouTube", "https://www.youtube.com/c/WebDevAssist"]
-        },
-        {
-          "details": true,
-          "time": "🗓 2020 - Current",
-          "label": "My YouTube channel on Mobile development",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec magna non dolor lacinia accumsan",
-          "tech": ["Android", "iOS", "Kotlin", "Swift"],
-          "links": ["Follow me on YouTube", "https://www.youtube.com/c/AppDevAssist"]
+          "time": "Email",
+          "label": "shinderohit127@gmail.com",
+          "description": "Get in touch through my email or just click on the email icon on bottom right!"
         }
       ]
     }
